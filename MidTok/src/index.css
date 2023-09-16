@@ -1,0 +1,61 @@
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+
+/* Variables de color */
+:root {
+  --color-primario: #007bff;
+  --color-fondo: #f0f0f0;
+  --color-texto: #333;
+  --color-enlace: #007bff;
+  --color-enlace-hover: #0056b3;
+}
+
+/* Estilos globales */
+body {
+  font-family: 'Nova Slim', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  color: var(--color-enlace);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--color-enlace-hover);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos específicos de la aplicación */
+.header {
+  background-color: var(--color-primario);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--color-primario);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--color-enlace-hover);
+}

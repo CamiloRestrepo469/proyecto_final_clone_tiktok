@@ -9,7 +9,12 @@
   --color-enlace: #007bff;
   --color-enlace-hover: #0056b3;
 }
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 /* Estilos globales */
 body {
   font-family: 'Nova Slim', sans-serif;

@@ -1,18 +1,14 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto;
-  padding: 5rem;
-  text-align: center; */
   background: rgb(0, 0, 0);
-
 }
-.App{
+
+.App {
   height: 100vh;
   display: grid;
   place-content: center;
-
 }
-main{
+
+main {
   border: 1px solid #fff;
   aspect-ratio: 9/16;
   border-radius: 3px;

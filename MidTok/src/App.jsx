@@ -1,21 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+// Suponiendo que el archivo vite.svg está en la misma carpeta que este archivo
+import './App.css';
+import React from 'react';
+import VideoPlayer from './components/VideoPlayer'; 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div className="App">
-        <main>
+    <div className="App">
+      <main>
         <h1>Tiktok Clone</h1>
-        </main>
-
-      </div>
-    </>
-  )
+        <VideoPlayer />
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
